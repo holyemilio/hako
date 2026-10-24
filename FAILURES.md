@@ -28,12 +28,6 @@ The mockups show a camera flow (screens 10 to 13) that was never implemented. Th
 
 **What I'd do instead:** mark each mockup as "planned", "built", or "dropped", and keep that status next to the file.
 
-## 5. Tooling problems cost time
-
-Xcode was installed, but the system pointed to the Command Line Tools, so the iOS Simulator wouldn't start. I didn't check this early, and I lost time to it. The project also had no version control until the end and no test target.
-
-**What I'd do instead:** check the toolchain on day one, put the project under git from the first commit, and add at least a basic test target.
-
 ## What still holds up
 
 - The data model (dispensa, scomparti, prodotti, persone, freezer) is reasonable, and the store handles persistence and notifications.
