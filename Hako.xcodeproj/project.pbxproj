@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FE39A29C52473F9D7C848B /* Hako/Views/BenvenutoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3F75A636B401F8F75246C /* Hako/Views/BenvenutoView.swift */; };
+		055433B5A5094438A76E2439 /* Hako/HakoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDA39C3CFD49DAA746F1A4 /* Hako/HakoApp.swift */; };
+		1CA209E6A2DF443BBD39F453 /* Hako/Views/DettaglioProdottoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88085862EBD24D6D902CDBB8 /* Hako/Views/DettaglioProdottoView.swift */; };
+		38F0052778994334B1698168 /* Hako/Views/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180A43FD4D241EF8EB5CA88 /* Hako/Views/ContentView.swift */; };
+		5845A03B9E2742308552E752 /* Hako/Views/Components/ProdottoIcona.swift in Sources */ = {isa = PBXBuildFile; fileRef = D314BF049949488CA2BD3ED5 /* Hako/Views/Components/ProdottoIcona.swift */; };
+		5D934119DCA34FFB96973915 /* Hako/Views/ScadenzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FC4E24D36A4D17A60875F8 /* Hako/Views/ScadenzeView.swift */; };
+		7DFC3E6088C241FE9291AF15 /* Hako/Views/DispensaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A679DEE84BE410E957E7B0C /* Hako/Views/DispensaView.swift */; };
+		924E2F8724124A0DA1CDBA91 /* Hako/Views/CreaDispensaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF1482AC0A45BCA1F4B6F7 /* Hako/Views/CreaDispensaView.swift */; };
+		9F595263DC4D43D189C2E702 /* Hako/Views/AggiungiProdottoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466ED23BDC6643FF94781593 /* Hako/Views/AggiungiProdottoView.swift */; };
+		B7976E63B43D4A3192DC1E4D /* Hako/Views/InventarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C13D26E8624AEC8676E58D /* Hako/Views/InventarioView.swift */; };
+		D5F3C514952B4D7F998C7E47 /* Hako/Models/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB495800A284D11B9C2B3A0 /* Hako/Models/Models.swift */; };
+		DBB5EB43FC874407A4AA38AB /* Hako/Views/ImpostazioniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CC3A21F0574FA5833D1579 /* Hako/Views/ImpostazioniView.swift */; };
+		EDBC0076CE4A4139812DF670 /* Hako/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9979F4AA0484D41A8B87B66 /* Hako/Resources/Assets.xcassets */; };
+		F31497F9EE9C45078D4FB1A6 /* Hako/ViewModels/HakoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68AFD6CCBF1401CAC3FA9AA /* Hako/ViewModels/HakoStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DB495800A284D11B9C2B3A0 /* Hako/Models/Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Models/Models.swift; sourceTree = "<group>"; };
+		27C13D26E8624AEC8676E58D /* Hako/Views/InventarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Views/InventarioView.swift; sourceTree = "<group>"; };
+		3180A43FD4D241EF8EB5CA88 /* Hako/Views/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Views/ContentView.swift; sourceTree = "<group>"; };
+		466ED23BDC6643FF94781593 /* Hako/Views/AggiungiProdottoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Views/AggiungiProdottoView.swift; sourceTree = "<group>"; };
+		55CC3A21F0574FA5833D1579 /* Hako/Views/ImpostazioniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Views/ImpostazioniView.swift; sourceTree = "<group>"; };
+		60FC4E24D36A4D17A60875F8 /* Hako/Views/ScadenzeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Views/ScadenzeView.swift; sourceTree = "<group>"; };
+		67BDA39C3CFD49DAA746F1A4 /* Hako/HakoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/HakoApp.swift; sourceTree = "<group>"; };
+		7A679DEE84BE410E957E7B0C /* Hako/Views/DispensaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Views/DispensaView.swift; sourceTree = "<group>"; };
+		88085862EBD24D6D902CDBB8 /* Hako/Views/DettaglioProdottoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Views/DettaglioProdottoView.swift; sourceTree = "<group>"; };
+		D314BF049949488CA2BD3ED5 /* Hako/Views/Components/ProdottoIcona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Views/Components/ProdottoIcona.swift; sourceTree = "<group>"; };
+		E68AFD6CCBF1401CAC3FA9AA /* Hako/ViewModels/HakoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/ViewModels/HakoStore.swift; sourceTree = "<group>"; };
+		E9979F4AA0484D41A8B87B66 /* Hako/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Hako/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		EAF3F75A636B401F8F75246C /* Hako/Views/BenvenutoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Views/BenvenutoView.swift; sourceTree = "<group>"; };
+		EEEF1482AC0A45BCA1F4B6F7 /* Hako/Views/CreaDispensaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hako/Views/CreaDispensaView.swift; sourceTree = "<group>"; };
+		FFB44FCE47764BBDB708A47C /* Hako.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hako.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D6BA3ADC094DB4AD9988B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEAEC59938934AAAB2BBA399 = {
+			isa = PBXGroup;
+			children = (
+				67BDA39C3CFD49DAA746F1A4 /* Hako/HakoApp.swift */,
+				0DB495800A284D11B9C2B3A0 /* Hako/Models/Models.swift */,
+				E68AFD6CCBF1401CAC3FA9AA /* Hako/ViewModels/HakoStore.swift */,
+				D314BF049949488CA2BD3ED5 /* Hako/Views/Components/ProdottoIcona.swift */,
+				EAF3F75A636B401F8F75246C /* Hako/Views/BenvenutoView.swift */,
+				EEEF1482AC0A45BCA1F4B6F7 /* Hako/Views/CreaDispensaView.swift */,
+				7A679DEE84BE410E957E7B0C /* Hako/Views/DispensaView.swift */,
+				88085862EBD24D6D902CDBB8 /* Hako/Views/DettaglioProdottoView.swift */,
+				60FC4E24D36A4D17A60875F8 /* Hako/Views/ScadenzeView.swift */,
+				27C13D26E8624AEC8676E58D /* Hako/Views/InventarioView.swift */,
+				466ED23BDC6643FF94781593 /* Hako/Views/AggiungiProdottoView.swift */,
+				55CC3A21F0574FA5833D1579 /* Hako/Views/ImpostazioniView.swift */,
+				3180A43FD4D241EF8EB5CA88 /* Hako/Views/ContentView.swift */,
+				E9979F4AA0484D41A8B87B66 /* Hako/Resources/Assets.xcassets */,
+				FFB44FCE47764BBDB708A47C /* Hako.app */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1420662930F94F65ADC0BA69 /* Hako */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D45D4E1611441F90E52A78 /* Build configuration list for PBXNativeTarget "Hako" */;
+			buildPhases = (
+				E7874BD426074A1893DB9743 /* Sources */,
+				18D6BA3ADC094DB4AD9988B6 /* Frameworks */,
+				D712405CFBA242EFBD83ADFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hako;
+			productName = Hako;
+			productReference = FFB44FCE47764BBDB708A47C /* Hako.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		434E4D95DE3D4457A2706383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					1420662930F94F65ADC0BA69 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = DE1AA7FF2E6C450C8104903C /* Build configuration list for PBXProject "Hako" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = it;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				it,
+				en,
+				Base,
+			);
+			mainGroup = EEAEC59938934AAAB2BBA399;
+			productRefGroup = EEAEC59938934AAAB2BBA399;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1420662930F94F65ADC0BA69 /* Hako */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D712405CFBA242EFBD83ADFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBC0076CE4A4139812DF670 /* Hako/Resources/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7874BD426074A1893DB9743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055433B5A5094438A76E2439 /* Hako/HakoApp.swift in Sources */,
+				D5F3C514952B4D7F998C7E47 /* Hako/Models/Models.swift in Sources */,
+				F31497F9EE9C45078D4FB1A6 /* Hako/ViewModels/HakoStore.swift in Sources */,
+				5845A03B9E2742308552E752 /* Hako/Views/Components/ProdottoIcona.swift in Sources */,
+				01FE39A29C52473F9D7C848B /* Hako/Views/BenvenutoView.swift in Sources */,
+				924E2F8724124A0DA1CDBA91 /* Hako/Views/CreaDispensaView.swift in Sources */,
+				7DFC3E6088C241FE9291AF15 /* Hako/Views/DispensaView.swift in Sources */,
+				1CA209E6A2DF443BBD39F453 /* Hako/Views/DettaglioProdottoView.swift in Sources */,
+				5D934119DCA34FFB96973915 /* Hako/Views/ScadenzeView.swift in Sources */,
+				B7976E63B43D4A3192DC1E4D /* Hako/Views/InventarioView.swift in Sources */,
+				9F595263DC4D43D189C2E702 /* Hako/Views/AggiungiProdottoView.swift in Sources */,
+				DBB5EB43FC874407A4AA38AB /* Hako/Views/ImpostazioniView.swift in Sources */,
+				38F0052778994334B1698168 /* Hako/Views/ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F3E07C370094BBAB0369A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		71F6C0EB72B84A04A001D5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hako;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Hako utilizza la fotocamera per riconoscere confezioni e codici a barre.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Hako non traccia i tuoi dati.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = V1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emiliofeo.Hako;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7AB8A5912464475EA3D9CD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAA02A2DB84E47BCBAD1D362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hako;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Hako utilizza la fotocamera per riconoscere confezioni e codici a barre.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Hako non traccia i tuoi dati.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = V1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emiliofeo.Hako;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7D45D4E1611441F90E52A78 /* Build configuration list for PBXNativeTarget "Hako" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA02A2DB84E47BCBAD1D362 /* Debug */,
+				71F6C0EB72B84A04A001D5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1AA7FF2E6C450C8104903C /* Build configuration list for PBXProject "Hako" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB8A5912464475EA3D9CD04 /* Debug */,
+				3F3E07C370094BBAB0369A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 434E4D95DE3D4457A2706383 /* Project object */;
+}
