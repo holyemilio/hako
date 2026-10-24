@@ -2,7 +2,7 @@
 
 App iOS (SwiftUI, iOS 17+) per tenere traccia di dispensa, scadenze e freezer, anche condivisa tra persone.
 
-Stato del progetto e analisi: vedi [PROGRESS.md](PROGRESS.md).
+Project status and analysis: [PROGRESS.md](PROGRESS.md). What didn't work: [FAILURES.md](FAILURES.md).
 
 ## Struttura
 
